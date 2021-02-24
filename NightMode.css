@@ -1,0 +1,10 @@
+body.NightMode{
+    background-color: #121212;
+    color: white;
+}
+#color{
+    color: red;
+}
+.NightMode#color{
+    color: blue;
+}
