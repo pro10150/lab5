@@ -18,4 +18,6 @@ function switchText(){
 function onClick(id){
     console.log(id);
     alert(document.getElementById(id).innerHTML + " said: " + "YEET");
+    document.getElementById(id).style.backgroundColor = "black";
+    document.getElementById(id).style.color = "white";
 }
